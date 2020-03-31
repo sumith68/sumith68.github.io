@@ -14,23 +14,23 @@ $ npx create-react-app react-tailwindcss
 
 The above command create a basic react app.  Change directory to  react-tailwindcss
 
-```
+```shell
 $ cd react-tailwindcss
 ```
 
  Then we do install Tailwind CSS as dev dependency
 
-```
+```shell
 $ yarn add tailwindcss --dev
 ```
 
 After installing we need to create Tailwind CSS configuration file. For that we have to run the following command
 
-```
+```shell
 $ ./node_modules/.bin/tailwind init tailwind.js
 ```
 
-The above command generate folowing output
+The above command generate following output
 
 
 
@@ -58,7 +58,7 @@ Next step is to add custom script in `package.json` file. We can call it as `tai
 
 This script will create `src/css/tailwind.css` file from `src/css/tailwind.src.css`
 
-> Notice:  *prepend* ***start\*** *and* ***build\*** *scripts with* ***tailwind:css\*** *script.*
+> Note:  Prepend **start** and **build** scripts with `tailwind:css` script.
 
 
 
